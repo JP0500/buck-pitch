@@ -287,7 +287,7 @@ def sum_scores(player_pts, npc_pts, winners, threshold, bid_winner):
             npc_pts += 1
             if bid_winner == 2:
                 bid_pts += 1
-    # if the bid isn't met, you buck
+    # if the bid isn't met, it's buck
     if bid_pts < threshold:
         if bid_winner == 1:
             player_pts -= threshold + bid_pts
